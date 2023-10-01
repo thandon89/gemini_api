@@ -25,7 +25,7 @@ class FundManagement:
         "_eid",
         "_advanceEid",
         "_feeAmount",
-        "_fee_currency",
+        "_feeCurrency",
         "_method",
         "_tx_hash",
         "_outputidx",
