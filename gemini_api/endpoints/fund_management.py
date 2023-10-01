@@ -27,7 +27,7 @@ class FundManagement:
         "_feeAmount",
         "_feeCurrency",
         "_method",
-        "_tx_hash",
+        "_txHash",
         "_outputidx",
         "_destination",
         "_purpose",
