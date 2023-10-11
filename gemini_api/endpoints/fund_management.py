@@ -28,7 +28,7 @@ class FundManagement:
         "_feeCurrency",
         "_method",
         "_txHash",
-        "_outputidx",
+        "_outputIdx",
         "_destination",
         "_purpose",
         "_txTime",
@@ -96,7 +96,7 @@ class FundManagement:
         if "txHash" in fund_data:
             self._txHash: str = fund_data["txHash"]
         if "outputIdx" in fund_data:
-            self._outputidx: int = fund_data["outputidx"]
+            self._outputIdx: int = fund_data["outputIdx"]
         if "destination" in fund_data:
             self._destination: str = fund_data["destination"]
         if "purpose" in fund_data:
@@ -310,7 +310,7 @@ class FundManagement:
         return self._txHash
 
     @property
-    def outputidx(self) -> int:
+    def outputIdx(self) -> int:
         """
         Property for the output index for transactions for when the
         currency is a cryptocurrency
@@ -318,7 +318,7 @@ class FundManagement:
         Returns:
             Output index
         """
-        return self._outputidx
+        return self._outputIdx
 
     @property
     def destination(self) -> str:
