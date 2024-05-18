@@ -563,6 +563,16 @@ class Order:
             Error message description
         """
         return self._message
+    
+    @property
+    def amount(self) -> float:
+        """
+        Property for the amount placed or executed in the order
+        
+        Returns:
+            Amount
+        """
+        return self._amount
 
     @classmethod
     def new_order(
